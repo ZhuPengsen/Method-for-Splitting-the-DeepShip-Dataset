@@ -3,7 +3,7 @@ This repository presents the DeepShip dataset segmentation method employed in ou
 
 ### The repository is to provide the segmentation method of the DeepShip dataset used in our [paper](https://www.sciencedirect.com/science/article/pii/S0003682X2300350X), and to provide the marine environment background noise dataset used by us, so that you can reproduce our work.  
 (1) Download DeepShip dataset;  
-(2) Run the above code;  
+(2) Run the above code.ipynb;  
 (3) The marine environment background noise used in our paper can be downloaded through the baidu online disk link:  
 https://pan.baidu.com/s/1KlMZC8zxI7fgMPSSJnt30A   
 Extraction code:8448   
