@@ -70,4 +70,4 @@ Although the use of the [DeepShip](https://www.sciencedirect.com/science/article
 ```
 
 ###  :white_check_mark: At Last
-- I hope this data segmentation method will be helpful to everyone, and I also hope that it will make it more convenient for everyone to conduct comparative experiments :point_left:. May everyone enjoy smooth sailing and fruitful achievements in their research :smiley:.
+- I hope this data splitting method will be helpful to everyone, and I also hope that it will make it more convenient for everyone to conduct comparative experiments :point_left:. May everyone enjoy smooth sailing and fruitful achievements in their research :smiley:.
