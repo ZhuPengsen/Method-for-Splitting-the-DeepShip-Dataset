@@ -12,7 +12,7 @@ Although the use of the [DeepShip](https://www.sciencedirect.com/science/article
 - We need to declare several details: First, the splitting of the data was done randomly, without any prior knowledge. We hope to conduct comparisons based on this fair approach. Secondly, we endeavor to adhere as closely as possible to the detailed information in the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset paper.
 
 ### :white_check_mark: Dataset Splitting Steps
-- Download the DeepShip dataset from this link, which is the official [address](https://github.com/irfankamboh/DeepShip/issues/1) published by the dataset's authors.
+- Download the DeepShip dataset from this link, which is the official address published by the dataset's authors.
 - Although the original paper used marine background noise data, it did not disclose this part. Therefore, we have supplemented it with the marine environmental noise data we collected. You can download it through this [link](https://pan.baidu.com/s/1KlMZC8zxI7fgMPSSJnt30A) (Extraction code:8448).
 - The `test.txt` and `train.txt` files represent the outcomes of splitting the original recordings. These files reference specific, intact recordings that have not yet been segmented into equally-sized samples.
 - The `code.ipynb` script is responsible for the splitting and segmentation of the dataset. After downloading and organizing the dataset in the `your_dir/DeepShip/…` format, enter `your_dir` into `audio_path` and specify the paths for the two txt files.
