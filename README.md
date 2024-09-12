@@ -5,11 +5,9 @@
 Although the use of the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset is becoming increasingly popular, the dataset has not disclosed its method for splitting the training and test sets. This situation makes it difficult for existing methods to be effectively compared. Therefore, we plan to publish the data splitting method used in our paper, in order to provide a reference for subsequent research and to facilitate comparative experiments.
 
 ### :white_check_mark: Papers Adopting this Splitting Method
-```bibtex
 - [Paper1](https://www.sciencedirect.com/science/article/pii/S0003682X2300350X): Zhu P, Zhang Y, Huang Y, et al. Underwater acoustic target recognition based on spectrum component analysis of ship radiated noise[J]. Applied Acoustics, 2023, 211: 109552.
 - [Paper2](https://ieeexplore.ieee.org/document/10305190): Zhu P, Zhang Y, Huang Y, et al. SFC-Sup: Robust Two-Stage Underwater Acoustic Target Recognition Method Based on Supervised Contrastive Learning[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023.
 - [Paper3](https://ieeexplore.ieee.org/document/10599169): Lin B , Gao L , Zhu P ,et al.An Underwater Acoustic Target Recognition Method Based on Iterative Short-Time Fourier Transform[J].IEEE Sensors Journal, 24[2024-09-12].DOI:10.1109/JSEN.2024.3424500.
-```
 
 ###  :white_check_mark: Statement
 - We need to declare several details: First, the splitting of the data was done randomly, without any prior knowledge. We hope to conduct comparisons based on this fair approach. Secondly, we endeavor to adhere as closely as possible to the detailed information in the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset paper.
@@ -45,6 +43,97 @@ Although the use of the [DeepShip](https://www.sciencedirect.com/science/article
 | Tanker           |     10827    |     158    |      3857    |      82    |     14684    |      240    |
 | Tug              |      8804    |      42    |      4662    |      27    |     13466    |      69     |
 | Total            |     39371    |     398    |     16884    |     211    |     56255    |      609    |
+
+<div style="text-align: center; font-size: 12px;">
+  <table border="1" style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Train</th>
+        <th>Train</th>
+        <th>Test</th>
+        <th>Test</th>
+        <th>Total</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>Sample</td>
+        <td>Recording</td>
+        <td>Sample</td>
+        <td>Recording</td>
+        <td>Sample</td>
+        <td>Recording</td>
+      </tr>
+      <tr>
+        <td>Cargo</td>
+        <td>27482</td>
+        <td>78</td>
+        <td>10686</td>
+        <td>31</td>
+        <td>38168</td>
+        <td>109</td>
+      </tr>
+      <tr>
+        <td>Passenger Ship</td>
+        <td>31545</td>
+        <td>120</td>
+        <td>14303</td>
+        <td>71</td>
+        <td>45848</td>
+        <td>191</td>
+      </tr>
+      <tr>
+        <td>Tanker</td>
+        <td>32330</td>
+        <td>158</td>
+        <td>11480</td>
+        <td>82</td>
+        <td>43810</td>
+        <td>240</td>
+      </tr>
+      <tr>
+        <td>Tug</td>
+        <td>26377</td>
+        <td>42</td>
+        <td>13965</td>
+        <td>27</td>
+        <td>40342</td>
+        <td>69</td>
+      </tr>
+      <tr>
+        <td>No Background</td>
+        <td>117734</td>
+        <td>398</td>
+        <td>50434</td>
+        <td>211</td>
+        <td>168168</td>
+        <td>609</td>
+      </tr>
+      <tr>
+        <td>Background</td>
+        <td>19635</td>
+        <td>138</td>
+        <td>8133</td>
+        <td>59</td>
+        <td>27768</td>
+        <td>197</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>137369</td>
+        <td>536</td>
+        <td>58567</td>
+        <td>270</td>
+        <td>195936</td>
+        <td>806</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 ###  :white_check_mark: Something Else
 - Drawing from our experimental experience, marine environmental noises can be easily distinguished. Hence, we recommend using only four types of ship radiated noise to streamline the training process. Furthermore, setting the sample overlap to zero `(audstr=32000*3)` is advisable to lessen the computational load.
