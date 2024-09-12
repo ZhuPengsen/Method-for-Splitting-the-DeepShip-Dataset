@@ -43,24 +43,6 @@ Although the use of the [DeepShip](https://www.sciencedirect.com/science/article
 | Tanker           |     10827    |     158    |      3857    |      82    |     14684    |      240    |
 | Tug              |      8804    |      42    |      4662    |      27    |     13466    |      69     |
 | Total            |     39371    |     398    |     16884    |     211    |     56255    |      609    |
-<style>
-  table {
-    font-size: 5px;  /* 设置字体大小 */
-    margin: 0 auto;   /* 表格居中 */
-  }
-</style>
-
-|                      |     Train     |    Train   |     Test     |    Test    |     Total     |    Total    |
-|----------------------|:-------------:|:----------:|:------------:|:----------:|:-------------:|:-----------:|
-|                      |     Sample    |  Recording |    Sample    |  Recording |     Sample    | Recording   |
-| Cargo                |     27482     |     78     |     10686    |     31     |     38168     |     109     |
-| Passenger Ship       |     31545     |     120    |     14303    |     71     |     45848     |     191     |
-| Tanker               |     32330     |     158    |     11480    |     82     |     43810     |     240     |
-| Tug                  |     26377     |     42     |     13965    |     27     |     40342     |     69      |
-| No Background        |     117734    |     398    |     50434    |     211    |     168168    |     609     |
-| Background           |     19635     |     138    |     8133     |     59     |     27768     |     197     |
-| Total                |     137369    |     536    |     58567    |     270    |     195936    |     806     |
-
 
 ###  :white_check_mark: Something Else
 - Drawing from our experimental experience, marine environmental noises can be easily distinguished. Hence, we recommend using only four types of ship radiated noise to streamline the training process. Furthermore, setting the sample overlap to zero `(audstr=32000*3)` is advisable to lessen the computational load.
