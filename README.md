@@ -5,8 +5,11 @@
 Although the use of the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset is becoming increasingly popular, the dataset has not disclosed its method for splitting the training and test sets. This situation makes it difficult for existing methods to be effectively compared. Therefore, we plan to publish the data splitting method used in our paper, in order to provide a reference for subsequent research and to facilitate comparative experiments.
 
 ### :white_check_mark: Papers Adopting this Splitting Method
-- [Paper2](https://ieeexplore.ieee.org/document/10305190): Zhu P, Zhang Y, Huang Y, et al. SFC-Sup: Robust Two-Stage Underwater Acoustic Target Recognition Method Based on Supervised Contrastive Learning[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023.
+```bibtex
 - [Paper1](https://www.sciencedirect.com/science/article/pii/S0003682X2300350X): Zhu P, Zhang Y, Huang Y, et al. Underwater acoustic target recognition based on spectrum component analysis of ship radiated noise[J]. Applied Acoustics, 2023, 211: 109552.
+- [Paper2](https://ieeexplore.ieee.org/document/10305190): Zhu P, Zhang Y, Huang Y, et al. SFC-Sup: Robust Two-Stage Underwater Acoustic Target Recognition Method Based on Supervised Contrastive Learning[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023.
+- [Paper3](https://ieeexplore.ieee.org/document/10599169): Lin B , Gao L , Zhu P ,et al.An Underwater Acoustic Target Recognition Method Based on Iterative Short-Time Fourier Transform[J].IEEE Sensors Journal, 24[2024-09-12].DOI:10.1109/JSEN.2024.3424500.
+```
 
 ###  :white_check_mark: Statement
 - We need to declare several details: First, the splitting of the data was done randomly, without any prior knowledge. We hope to conduct comparisons based on this fair approach. Secondly, we endeavor to adhere as closely as possible to the detailed information in the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset paper.
