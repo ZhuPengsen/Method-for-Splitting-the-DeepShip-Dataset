@@ -10,6 +10,7 @@
 
 ###  :white_check_mark: Statement
 - We need to declare several details: First, the splitting of the data was done randomly, without any prior knowledge. We hope to conduct comparisons based on this fair approach. Secondly, we strive to closely follow the detailed guidelines provided in the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset paper.
+- Moreover, it is crucial that ***we adhere to the rule mentioned in the paper that segments from the same recording should not be simultaneously divided into training and testing sets, as this would lead to artificially high accuracy in testing.***:exclamation::exclamation::exclamation:
 
 ### :white_check_mark: Dataset Splitting Steps
 - **Download the DeepShip Dataset:**
