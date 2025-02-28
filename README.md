@@ -4,9 +4,10 @@
 - Underwater acoustic target recognition using deep learning is gaining increasing attention, but data collection is often costly due to the unique nature of the data. Although the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset is widely used, its training and test set splitting method has not been disclosed, making it difficult to compare existing methods effectively. To address this, we plan to publish our data splitting method to serve as a reference for future research.
 
 ### :white_check_mark: Papers Adopting this Splitting Method
-- [Paper 1](https://www.sciencedirect.com/science/article/pii/S0003682X2300350X): Zhu P, Zhang Y, Huang Y, et al. Underwater acoustic target recognition based on spectrum component analysis of ship radiated noise[J]. Applied Acoustics, 2023.
-- [Paper 2](https://ieeexplore.ieee.org/document/10305190): Zhu P, Zhang Y, Huang Y, et al. SFC-Sup: Robust Two-Stage Underwater Acoustic Target Recognition Method Based on Supervised Contrastive Learning[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023.
-- [Paper 3](https://ieeexplore.ieee.org/document/10599169): Lin B , Gao L , Zhu P ,et al. An Underwater Acoustic Target Recognition Method Based on Iterative Short-Time Fourier Transform[J]. IEEE Sensors Journal, 2024.
+- [Paper 01](https://www.sciencedirect.com/science/article/pii/S0003682X2300350X): Zhu P, Zhang Y, Huang Y, et al. Underwater acoustic target recognition based on spectrum component analysis of ship radiated noise[J]. Applied Acoustics, 2023.
+- [Paper 02](https://ieeexplore.ieee.org/document/10305190): Zhu P, Zhang Y, Huang Y, et al. SFC-Sup: Robust Two-Stage Underwater Acoustic Target Recognition Method Based on Supervised Contrastive Learning[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023.
+- [Paper 03](https://ieeexplore.ieee.org/document/10599169): Lin B , Gao L , Zhu P ,et al. An Underwater Acoustic Target Recognition Method Based on Iterative Short-Time Fourier Transform[J]. IEEE Sensors Journal, 2024.
+- [Paper 04](https://ieeexplore-ieee-org.remotexs.ntu.edu.sg/document/10840098): Wang Y, Gao L, Zhang Y, et al. An Underwater Acoustic Target Recognition Method Based on Multi-Stage Feature Fusion Strategy[C]//2024 IEEE International Conference on Unmanned Systems (ICUS). IEEE, 2024: 1398-1403.
 
 ###  :white_check_mark: Statement
 - We need to declare several details: First, the splitting of the data was done randomly, without any prior knowledge. We hope to conduct comparisons based on this fair approach. Secondly, we strive to closely follow the detailed guidelines provided in the [DeepShip](https://www.sciencedirect.com/science/article/pii/S0957417421007016) dataset paper.
