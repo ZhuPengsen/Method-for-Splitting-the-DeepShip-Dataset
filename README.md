@@ -16,7 +16,7 @@
 ### :white_check_mark: Dataset Splitting Steps
 - **Download the DeepShip Dataset:**
   Since we are not the original authors and do not own the copyright, we cannot directly share this dataset. To download it, please refer to the original authors' guidance in this [issue](https://github.com/irfankamboh/DeepShip/issues/1#issuecomment-1378942555).
-- **Marine Environmental Noise:** The original paper mentioned the use of marine environmental noises but did not provide details. We have supplemented this with our own collected noise data, which you can download through this [link](https://pan.baidu.com/s/1KlMZC8zxI7fgMPSSJnt30A) (Extraction code:8448).
+- **Marine Environmental Noise:** The original paper mentioned the use of marine environmental noises but did not provide details. We have supplemented this with our own collected noise data, which you can download through this [link](https://drive.google.com/file/d/1USflRs7YCvoGfh4e8vMlE2NwjBSTUYO-/view?usp=sharing).
 - **Training and Testing Files:** The `test.txt` and `train.txt` files indicate how the original recordings are split. These files reference complete recordings that have not been segmented into equal-sized samples.
 - **Segmentation Script:** Use the `code.ipynb` script to split and segment the dataset. After organizing the downloaded dataset in the `your_dir/DeepShip/…` format, set `audio_path` to `your_dir` and specify paths for the `train.txt` and `test.txt` files.
 - **Segmentation Parameters:** Define `audlen` for sample length and `audstr` for the offset between segments. For example, setting `audstr` to `32000*3` ensures no overlap between samples. Running `code.ipynb` will produce the segmented results.
